@@ -8,6 +8,7 @@ h1 {
   text-align: center;
   margin-top: 1rem; /* Removes space below h1 */
   margin-bottom: 0rem;
+
   /* Responsive h1: Min 24px, scales with screen, Max 40px */
   font-size: clamp(1.5rem, 3.5vw, 1.75rem);
 }
@@ -16,6 +17,7 @@ header p {
   text-align: center;
   margin-top: -0.2rem; /* Removes space above p */
   margin-bottom: 0;
+
   /* Responsive paragraph: Min 16px, Max 22px */
   font-size: clamp(0.75rem, 1.8vw, 1rem);
 }
@@ -38,6 +40,7 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+
   /* Base font: Min 16px, Max 20px */
   font-size: clamp(1rem, 1.1vw, 1.125rem);
   line-height: 1.5;
@@ -59,7 +62,7 @@ select {
 /* Radios & Checkboxes */
 input[type="radio"],
 input[type="checkbox"] {
-  transform: scale(1.2); /* Smaller scale for better mobile fit*/
+  transform: scale(1.2);  /* Smaller scale for better mobile fit*/
   margin-right: 10px;
   vertical-align: middle;
   cursor: pointer;
@@ -86,10 +89,10 @@ textarea {
 /* Survey Container */
 #survey {
   background: linear-gradient(rgba(2 10 30 / 70%), rgba(2 10 30 / 70%));
-  padding: clamp(15px, 5vw, 30px); /* Padding shrinks on small screens */
+  padding: clamp(15px, 5vw, 30px);  /* Padding shrinks on small screens */
   max-width: 700px;
-  width: 90%; /*This width ensures it doesn't touch the edges of mobile screens*/
-  margin: 20px auto; /* This centers the form perfectly on any screen */
+  width: 90%;  /*This width ensures it doesn't touch the edges of mobile screens*/
+  margin: 20px auto;  /* This centers the form perfectly on any screen */
   border-radius: 8px;
 }
 
