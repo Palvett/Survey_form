@@ -7,7 +7,7 @@
 h1 {
   text-align: center;
   margin-top: 1rem; /* Removes space below h1 */
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 
   /* Responsive h1: Min 24px, scales with screen, Max 40px */
   font-size: clamp(1.5rem, 3.5vw, 1.75rem);
@@ -62,7 +62,7 @@ select {
 /* Radios & Checkboxes */
 input[type="radio"],
 input[type="checkbox"] {
-  transform: scale(1.2);  /* Smaller scale for better mobile fit*/
+  transform: scale(1.2);
   margin-right: 10px;
   vertical-align: middle;
   cursor: pointer;
@@ -89,10 +89,10 @@ textarea {
 /* Survey Container */
 #survey {
   background: linear-gradient(rgba(2 10 30 / 70%), rgba(2 10 30 / 70%));
-  padding: clamp(15px, 5vw, 30px);  /* Padding shrinks on small screens */
+  padding: clamp(15px, 5vw, 30px);
   max-width: 700px;
-  width: 90%;  /*This width ensures it doesn't touch the edges of mobile screens*/
-  margin: 20px auto;  /* This centers the form perfectly on any screen */
+  width: 90%;
+  margin: 20px auto; 
   border-radius: 8px;
 }
 
